@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_title">28sp</dimen>
+
+    <dimen name="generic_margin">22dp</dimen>
+    <dimen name="small_margin">10dp</dimen>
+    <dimen name="image_margin">64dp</dimen>
+    <dimen name="layout_inputtext_height">40dp</dimen>
+    <dimen name="small_padding">6dp</dimen>
+    <dimen name="generic_padding">12dp</dimen>
+    <dimen name="text_input">14sp</dimen>
+    <dimen name="button_height">45dp</dimen>
+    <dimen name="button_text_size">16sp</dimen>
+    <dimen name="circle_image_size">120dp</dimen>
+    <dimen name="circle_image_nav_size">90dp</dimen>
+
+    <dimen name="dots_height">30dp</dimen>
+    <dimen name="dots_margin_bottom">20dp</dimen>
+</resources>

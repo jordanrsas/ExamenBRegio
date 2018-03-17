@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/background_dialog"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="24dp">
+
+        <ImageView
+            android:id="@+id/btnDrive"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circular_share_btn"
+            app:srcCompat="@drawable/drive" />
+
+        <android.support.v4.widget.Space
+            android:layout_width="20dp"
+            android:layout_height="match_parent" />
+
+        <ImageView
+            android:id="@+id/btnShare"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:background="@drawable/circular_share_btn"
+            android:padding="20dp"
+            app:srcCompat="@drawable/share_canvas" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:background="@color/colorPrimary"
+        android:text="Cancelar"
+        android:textColor="@color/colorAccent" />
+</LinearLayout>

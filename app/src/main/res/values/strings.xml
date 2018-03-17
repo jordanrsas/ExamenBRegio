@@ -1,0 +1,54 @@
+<resources>
+    <string name="app_name">ExamenBRegio</string>
+    <string name="sucursales_cajeros">Sucursales y cajeros</string>
+    <string name="error_sucursales_cajeros">Error obteniendo ucursales y cajeros, ¿desea intentar de nuevo?</string>
+
+    <string name="title_login">Iniciar Sesión</string>
+    <string name="hint_user">Usuario</string>
+    <string name="hint_pass">Contraseña</string>
+    <string name="btn_login">Inciar Sesión</string>
+    <string name="find_sucursal">Encuntra sucursales y cajeros</string>
+    <string name="find_sucursal_here">AQUÍ</string>
+
+    <string name="title_aceptar">Aceptar</string>
+    <string name="title_cancelar">Cancelar</string>
+    <string name="message_salir">¿Desea salir de la App?</string>
+
+    <string name="error_empty_login">El nombre de usuario y contraseña no pueden estár vacios, porfavor valide la información.</string>
+    <string name="error_login">Nombre de usuario y/o contraseña incorrectos.</string>
+
+    <string name="error_generic_ws">Ocurrió un Error de Conexión. Porfavor intente de nuevo.</string>
+
+    <string name="title_alta_user">Alta de usuario</string>
+    <string name="hint_names">Nombre(s)</string>
+    <string name="hint_lastnames">Apellidos</string>
+    <string name="hitn_birthday">Fecha de nacimiento</string>
+    <string name="hint_direction">Dirección</string>
+
+    <string name="text_save">Guardar</string>
+
+    <string name="error_name">El campo nombre no puede estar vacío.</string>
+    <string name="error_lastname">El campo apellido no puede estar vacío.</string>
+    <string name="error_direction">El campo dirección no puede estar vacío.</string>
+    <string name="error_birthday">El campo fecha de nacimiento no puede estar vacío.</string>
+
+    <string name="save_user_success">Se han guardado los datos correctamente.</string>
+
+    <string name="txt_menu_banregio">Banregio</string>
+    <string name="txt_menu_sucursales">Sucursales</string>
+    <string name="txt_menu_datos">Datos de cuenta</string>
+    <string name="txt_menu_logout">Cerrar sesión</string>
+
+    <string name="drawer_open">Abrir</string>
+    <string name="drawer_close">Cerrar</string>
+    <string name="desea_cacelar">¿Deseas Salir y Cancelar la Operación Actual?</string>
+    <string name="desea_salir">¿Desea cerrar sesión?</string>
+
+    <string name="next">Siguiente</string>
+    <string name="skip">Omitir</string>
+    <string name="start">Finalizar</string>
+
+    <string name="txt_slide_1">Busca sucursales cerca de ti.</string>
+    <string name="txt_slide_2">Revisa tu estado de cuenta.</string>
+    <string name="txt_slide_3">Organiza tus pagos</string>
+</resources>

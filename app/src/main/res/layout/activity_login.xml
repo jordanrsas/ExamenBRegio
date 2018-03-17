@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_gradient"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    android:orientation="vertical">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/image_margin"
+        android:layout_marginStart="@dimen/image_margin"
+        android:layout_marginTop="@dimen/image_margin"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/banregio_logo" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/generic_margin"
+        android:gravity="center"
+        android:text="@string/title_login"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/text_title"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/generic_margin"
+        android:layout_marginStart="@dimen/generic_margin"
+        android:layout_marginTop="@dimen/generic_margin"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_inputtext_height"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtUser"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:background="@android:color/transparent"
+                android:hint="@string/hint_user"
+                android:inputType="textPersonName"
+                android:maxLines="1"
+                android:paddingStart="@dimen/generic_padding"
+                android:text="Jordan"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_input" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/layout_inputtext_height"
+            android:background="@drawable/rounded_edittext"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/small_margin"
+                android:background="@android:color/transparent"
+                android:hint="@string/hint_pass"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:paddingStart="@dimen/generic_padding"
+                android:text="androidfan"
+                android:textColor="@android:color/black"
+                android:textSize="@dimen/text_input" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/button_height"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/generic_margin"
+            android:background="@drawable/rounded_buttom"
+            android:text="@string/btn_login"
+            android:textAllCaps="false"
+            android:textSize="@dimen/button_text_size"
+            android:theme="@style/RippleButton" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/find_sucursal"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/imgFindSucursales"
+            android:layout_width="82dp"
+            android:layout_height="82dp"
+            android:layout_gravity="center"
+            android:adjustViewBounds="true"
+            android:scaleType="fitXY"
+            android:src="@drawable/find_icon" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/find_sucursal_here"
+            android:textColor="@color/colorAccent"
+            android:textStyle="bold" />
+    </LinearLayout>
+</LinearLayout>
